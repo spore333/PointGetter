@@ -30,7 +30,7 @@ public class scr_draw_score : MonoBehaviour
         txt.text = points.ToString();
 
         float txt_w = txt.preferredWidth;
-        icon_t.position = new Vector3(ico_origX-(pixelToWorld(txt_w)/2)-0.75f, icon_t.position.y);
+        //icon_t.position = new Vector3(ico_origX-(pixelToWorld(txt_w)/2)-0.75f, icon_t.position.y);
         //can you guys see this?
     }
 
