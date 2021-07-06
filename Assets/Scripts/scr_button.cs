@@ -19,14 +19,14 @@ public class scr_button : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        cont.score += 1;
+        //cont.score += 1;
     }
 
     //when clicked
     void OnMouseDown()
     {
         spr.sprite = butt_down;
-        cont.score*=10;
+        cont.score++;
 
     }
     void OnMouseUp()
