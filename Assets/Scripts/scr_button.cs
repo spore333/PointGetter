@@ -66,9 +66,31 @@ public class scr_button : MonoBehaviour {
 	    }
 
     }
+    void OnTouchStart() {
+        if (!special){
+            spr.sprite = butt_down;
+            cont.score++;
+        }
+        if (special){
+            spr.sprite = critbutt_down;
+            if (cont.score<50){
+                cont.score+=5;
+            }
+            else {
+                cont.score+=(int)(cont.score*.1);
+            }
+            special = false;
+        }
+
+    }
+
     void OnMouseUp() {
         spr.sprite = butt_up;
     }
+    void OnTouchEnd() {
+        spr.sprite = butt_up;
+    }
+
     void OnMouseExit() {
         spr.sprite = butt_up;
     }
