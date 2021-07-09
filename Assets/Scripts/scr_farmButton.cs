@@ -31,14 +31,14 @@ public class scr_farmButton : MonoBehaviour
 
     void OnMouseUp(){
     	spr.sprite = buttUp;
-    	SceneManager.LoadScene(sceneName:"Farm");
+    	SceneManager.LoadScene(sceneName:"Farm", LoadSceneMode.Single);
     }
     void OnTouchEnd(){
     	spr.sprite = buttUp;
-    	SceneManager.LoadScene(sceneName:"Farm");
+    	SceneManager.LoadScene(sceneName:"Farm", LoadSceneMode.Single);
     }
     void OnMouseExit() {
         spr.sprite = buttUp;
-        SceneManager.LoadScene(sceneName:"Farm");
+        SceneManager.LoadScene(sceneName:"Farm", LoadSceneMode.Single);
     }
 }

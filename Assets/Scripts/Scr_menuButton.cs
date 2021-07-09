@@ -32,18 +32,18 @@ public class Scr_menuButton : MonoBehaviour
 
     void OnMouseUp() {
         spr.sprite = butt_up;
-        SceneManager.LoadScene(sceneName:"Menu");
-        SceneManager.UnloadScene(sceneName:"Home");
+        SceneManager.LoadScene(sceneName:"Menu", LoadSceneMode.Single);
+        //SceneManager.UnloadSceneAsync(sceneName:"Home", LoadSceneMode.Single);
     }
     void OnTouchEnd() {
         spr.sprite = butt_up;
-        SceneManager.LoadScene(sceneName:"Menu");
-        SceneManager.UnloadScene(sceneName:"Home");
+        SceneManager.LoadScene(sceneName:"Menu", LoadSceneMode.Single);
+        //SceneManager.UnloadSceneAsync(sceneName:"Home", single);
     }
 
     void OnMouseExit() {
         spr.sprite = butt_up;
-        SceneManager.LoadScene(sceneName:"Menu");
-        SceneManager.UnloadScene(sceneName:"Home");
+        SceneManager.LoadScene(sceneName:"Menu", LoadSceneMode.Single);
+        //SceneManager.UnloadSceneAsync(sceneName:"Home", single);
     }
 }
