@@ -6,19 +6,19 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
-      value: 22424703114646680e0b0227036c771f1b12563f22213229
-      flags: 0
-    RecentlyUsedScenePath-1:
       value: 22424703114646680e0b0227036c72151802563f22213229
       flags: 0
-    RecentlyUsedScenePath-2:
+    RecentlyUsedScenePath-1:
       value: 22424703114646680e0b0227036c7911041a563f22213229
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 22424703114646680e0b0227036c771f1b12563f22213229
       flags: 0
     UnityRemoteCompression:
       value: 337f73
       flags: 0
     UnityRemoteDevice:
-      value: 530104565d04590a405e5c7345757c4535474a727878766108
+      value: 0a7e6748245b10
       flags: 0
     UnityRemoteResolution:
       value: 2d5e460b0459
