@@ -1,8 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Menu.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
 - path: Assets/Scenes/Home.unity
   isLoaded: 1
   isActive: 0
@@ -11,7 +7,15 @@ sceneSetups:
   isLoaded: 1
   isActive: 0
   isSubScene: 0
-- path: Assets/Scenes/farmInv.unity
+- path: Assets/Scenes/Menu.unity
   isLoaded: 1
   isActive: 0
+  isSubScene: 0
+- path: Assets/Casino.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/farmInv.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
