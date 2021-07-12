@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Scr_menuButton : MonoBehaviour
+public class butt_Menu : MonoBehaviour
 {
 	public SpriteRenderer spr;
     public Sprite butt_up;

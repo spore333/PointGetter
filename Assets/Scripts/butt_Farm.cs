@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class scr_farmButton : MonoBehaviour
+public class butt_Farm : MonoBehaviour
 {
 	public SpriteRenderer spr;
 	public Sprite buttUp;

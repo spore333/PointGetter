@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class scr_InvButton : MonoBehaviour
+public class butt_Inventory : MonoBehaviour
 {
 	public SpriteRenderer spr;
     public Sprite butt_up;
